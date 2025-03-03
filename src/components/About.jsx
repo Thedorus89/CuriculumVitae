@@ -4,11 +4,11 @@
 const aboutItems = [
     {
       label: 'Project done',
-      number: 45
+      number: 15
     },
     {
       label: 'Years of experience',
-      number: 12
+      number: 13
     }
   ];
 
@@ -23,11 +23,9 @@ function About() {
             <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
                 <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
                 Welcome! I&apos;m Theo, 
-                a professional backend and web developer 
-                with a knack for crafting visually stunning and highly functional websites. 
-                Combining creativity and technical expertise. 
-                I transform your vision into digital masterpiece 
-                that excels in both appearance and performance.
+                I am an experienced software developer specializing in backend development, particularly in building and maintaining web APIs, web applications, and enterprise solutions. With expertise in NestJS (TypeScript) and C#, I have worked on multiple projects ranging from real estate APIs, vehicle and sales management systems, to human movement detection using AI.
+                My skill set includes ASP.NET, VB.NET, WPF, SQL Server, Azure, and various reporting tools like SSRS and Crystal Reports. I have also developed and maintained SharePoint portals, online approval systems, and quality control applications.
+                Passionate about creating efficient and scalable solutions, I am proficient in using Visual Studio, Git, JavaScript, jQuery, and Telerik to build robust applications that meet business needs.
                 </p>
 
                 <div className="flex flex-wrap items-center gap-4 md:gap-7">

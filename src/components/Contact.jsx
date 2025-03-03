@@ -75,7 +75,6 @@ const Contact = () => {
                                 id="name"
                                 autoComplete="name"
                                 required
-                                placeholder="Theodorus Danang Wicaksono"
                                 className="text-field reveal-up"
                             />
 
@@ -95,7 +94,6 @@ const Contact = () => {
                                 id="email"
                                 autoComplete="email"
                                 required
-                                placeholder="theodoredanang@gmail.com"
                                 className="text-field reveal-up"
                             />
 

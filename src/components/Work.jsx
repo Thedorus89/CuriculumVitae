@@ -2,28 +2,24 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
     {
-      imgSrc: '/images/project-1.jpg',
-      title: 'Full stack music app',
-      tags: ['API', 'MVC', 'Development'],
-      projectLink: 'https://musify-5al0.onrender.com/'
+      imgSrc: '/images/sharepoint.webp',
+      title: 'Sharepoint workflow and webparts',
+      tags: ['Sharepoint', 'Development']
     },
     {
-      imgSrc: '/images/project-2.jpg',
-      title: 'Free stock photo app',
-      tags: ['API', 'SPA'],
-      projectLink: 'https://pixstock-official.vercel.app/'
+      imgSrc: '/images/Mars.webp',
+      title: 'Master and Distribution Online',
+      tags: ['WPF', 'C#', 'Vb.Net'], 
     },
     {
-      imgSrc: '/images/project-3.jpg',
-      title: 'Recipe app',
-      tags: ['Development', 'API'],
-      projectLink: ''
+      imgSrc: '/images/Oasys.png',
+      title: 'Online Approval System',
+      tags: ['Development', 'C#', 'Vb.Net'], 
     },
     {
-      imgSrc: '/images/project-4.jpg',
-      title: 'Real state website',
-      tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee-org/wealthome'
+      imgSrc: '/images/Motion.jpeg',
+      title: 'Human Motion Detection using AI',
+      tags: ['WPF', 'C#', 'Development'], 
     },
     {
       imgSrc: '/images/project-5.jpg',
@@ -52,13 +48,12 @@ const Work = () => {
             </h2>
 
             <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
-                {works.map(({ imgSrc, title, tags, projectLink }, key) =>(
+                {works.map(({ imgSrc, title, tags }, key) =>(
                     <ProjectCard 
                         key={key}
                         imgSrc={imgSrc}
                         title={title}
-                        tags={tags}
-                        projectLink={projectLink}
+                        tags={tags} 
                         classes="reveal-up"
                     />
                 ))}

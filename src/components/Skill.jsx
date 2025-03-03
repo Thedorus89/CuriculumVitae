@@ -27,8 +27,23 @@ const skillItem = [
       desc: 'Node Framework'
     },
     {
+      imgSrc: '/images/NestJS.png',
+      label: 'NestJs',
+      desc: 'Node Framework'
+    },
+    {
       imgSrc: '/images/mongodb.svg',
       label: 'MongoDB',
+      desc: 'Database'
+    },
+    {
+      imgSrc: '/images/postgresql.png',
+      label: 'Postgresql',
+      desc: 'Database'
+    },
+    {
+      imgSrc: '/images/sql-server.svg',
+      label: 'SQL Server',
       desc: 'Database'
     },
     {
@@ -37,10 +52,25 @@ const skillItem = [
       desc: 'Framework'
     },
     {
+      imgSrc: '/images/Net.png',
+      label: '.Net',
+      desc: 'Framework'
+    },
+    {
+      imgSrc: '/images/Asp.net.png',
+      label: 'ASP.Net',
+      desc: 'Web Framework'
+    },
+    {
+      imgSrc: '/images/CSharp.png',
+      label: 'C#',
+      desc: 'Programming Language'
+    },
+    {
       imgSrc: '/images/tailwindcss.svg',
       label: 'TailwindCSS',
       desc: 'User Interface'
-    },
+    }, 
   ];
 
 
