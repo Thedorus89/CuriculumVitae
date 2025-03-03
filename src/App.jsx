@@ -9,8 +9,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skill from "./components/Skill";
-import Work from "./components/Work";
-import Review from "./components/Review";
+import Work from "./components/Work"; 
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -39,8 +38,7 @@ const App = () => {
             <Hero />
             <About />
             <Skill />
-            <Work />
-            <Review />
+            <Work /> 
             <Contact />
         </main> 
         <Footer />
