@@ -30,7 +30,7 @@ const sitemap = [
     }, 
     {
       label: 'Instagram',
-      href: 'https://www.instagram.com/theodore89'
+      href: 'https://www.instagram.com/thedorus89'
     }
   ];
 
