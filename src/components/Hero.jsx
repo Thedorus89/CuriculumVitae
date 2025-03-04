@@ -13,7 +13,7 @@ const Hero = () => {
                 <div className="flex items-center gap-3">
                     <figure className="img-box w-9 h-9 rounded-lg">
                         <img 
-                            src="/images/avatar-1.jpg" 
+                            src="/images/TheodorusDanang-Photoroom.png" 
                             width={40}
                             height={40}
                             alt="Theodore Danang Potrait"
@@ -43,6 +43,7 @@ const Hero = () => {
                     <ButtonPrimary 
                         label="Download CV"
                         icon="download"
+                        href="https://curiculumvitaebucket.s3.amazonaws.com/TheodorusDanang_CV.pdf"
                     />
 
                     <ButtonOutline 
@@ -58,7 +59,7 @@ const Hero = () => {
                 bg-gradient-to-t from-sky-400 via-25% via-sky-400/40
                 to-65% rounded-[60px] overflow-hidden">
                     <img 
-                    src="/images/hero-banner.png"
+                    src="/images/TheodorusDanang-Photoroom.png"
                     width={656}
                     height={800} 
                     alt="Theodore Danang" 

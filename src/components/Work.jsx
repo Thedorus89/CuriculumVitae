@@ -9,7 +9,7 @@ const works = [
     {
       imgSrc: '/images/Mars.webp',
       title: 'Master and Distribution Online',
-      tags: ['WPF', 'C#', 'Vb.Net'], 
+      tags: ['WPF', 'C#', 'Vb.Net', 'Development'], 
     },
     {
       imgSrc: '/images/Oasys.png',
@@ -22,17 +22,10 @@ const works = [
       tags: ['WPF', 'C#', 'Development'], 
     },
     {
-      imgSrc: '/images/project-5.jpg',
-      title: 'eCommerce website',
-      tags: ['eCommerce', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
-    },
-    {
-      imgSrc: '/images/project-6.jpg',
-      title: 'vCard Personal portfolio',
-      tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
-    },
+      imgSrc: '/images/Nest.webp',
+      title: 'Web API',
+      tags: ['NestJS', 'Development', 'TypeScript'], 
+    }, 
   ];
 
 const Work = () => {
