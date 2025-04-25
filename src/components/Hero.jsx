@@ -41,7 +41,7 @@ const Hero = () => {
 
                 <div className="flex items-center gap-3">
                     <ButtonPrimary 
-                        label="Download CV"
+                        label="Download My CV"
                         icon="download"
                         href="https://curiculumvitaebucket.s3.amazonaws.com/Theodorus-Danang_CV.pdf"
                     />
