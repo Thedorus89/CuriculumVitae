@@ -43,7 +43,7 @@ const Hero = () => {
                     <ButtonPrimary 
                         label="Download CV"
                         icon="download"
-                        href="https://curiculumvitaebucket.s3.amazonaws.com/TheodorusDanang_CV.pdf"
+                        href="https://curiculumvitaebucket.s3.amazonaws.com/Theodorus-Danang_CV.pdf"
                     />
 
                     <ButtonOutline 
